@@ -4,10 +4,77 @@ body{
     
 }
 
+/* inicio do index */
+
+/* Basic Colors*/
+.light-green-color { color: #7399df }
+.light-green-bg-color { background-color: #3c6e7a; }
+.dark-green-color { color: #3c6e7a; }
+.dark-green-bg-color { background-color: #3c6e7a; }
+.white-color { color: #fff; }
+
+.tit{
+padding-top: 200px;
+text-align: center;}
+
+.sub{
+    text-align: center;
+   
+}
+
+.login{
+    text-decoration: none;
+    color: #efefef;
+}
+
+.bt{
+    padding-top: 300px;
+    text-align: center;
+}
+.btn-1{
+    width:300px;
+    height: 50px;
+    border: none;
+color: white;
+background-color: #c2a64b;
+border-radius: 4px;
+box-shadow: inset 0 0 0 0 #8b6312;
+transition: ease-out 0.3s;
+font-size: 20px;
+outline: none;
+text-decoration: none ;
+}
+
+.btn-1:hover{
+box-shadow: inset 300px 0 0 0 #aa7518;
+cursor: pointer;
+color: #000;
+}
+
+h1{
+   font-size: 30px;
+   font-family: Impact, fantasy;
+   font-weight: 200;
+}
+h2{
+    font-size: 20px;
+ }
+
+
+#loginContainer{
+    background-image: linear-gradient(to bottom, rgb(117, 191, 216), rgba(143, 175, 175, 0.601));
+    height: 100vh;
+}
+
+
+/*FIM INDEX*/
+
+/*COMEÇO HOME */
+
 nav{
     background-color: #FFCC49;
-    width: 100%;
-    position:absolute;
+    width: 200vh;
+    position: absolute;
 }
 nav ul{
     display: flex;
@@ -31,7 +98,6 @@ nav ul{
     width: 100%;
     min-width: 100vh;
     padding: 2%;
-   
     background-position: center;
     background-size:cover;
     align-items:center;
